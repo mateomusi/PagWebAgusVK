@@ -77,9 +77,9 @@ header {
   flex-direction: column;
   align-items: center;
   background-image: url(fotos/foto2.webp);
-  background-repeat: no-repeat;
+  background-repeat: repeat-y;
   background-size: 100%;
-  height: 900px;
+  height: 500px;
 }
 .caja2 h2 {
   font-family: "Poppins", sans-serif;
@@ -97,7 +97,7 @@ header {
 }
 .caja3 h2 {
   font-family: "Poppins", sans-serif;
-  font-size: 72px;
+  font-size: 60px;
   width: 1000px;
   text-align: center;
   margin-top: 25px;
@@ -142,7 +142,10 @@ header {
   height: 312px;
   background-color: rgba(137, 137, 137, 1);
 }
-
+.caja5 img {
+  width: 545px;
+  height: 63px;
+}
 .caja5 h2 {
   color: #fffdfd;
   font-size: 42px;
@@ -525,9 +528,12 @@ footer img {
   }
   .caja1 h2 {
     width: auto;
+    font-size: 36px;
+    line-height: 0.9;
   }
   .caja3 h2 {
     width: auto;
+    font-family: 26px;
   }
   .subcaja iframe {
     width: 85%;
@@ -537,20 +543,41 @@ footer img {
     width: auto;
   }
   .subcaja {
-    padding-bottom: 20%;
+    padding-bottom: 40%;
   }
   .separator .line {
     width: 100px;
   }
   .caja8 h2 {
     width: auto;
+    font-size: 28px;
+    line-height: 0.9;
   }
   .caja-info-mateo p {
-    font-size: 11px;
+    font-size: 7px;
   }
 
   .slideshow-container {
     width: 85%;
     height: fit-content;
+  }
+  .caja2 h2 {
+    width: auto;
+    font-size: 26px;
+  }
+  .caja5 img {
+    width: auto;
+  }
+  .caja6 h2 {
+    width: auto;
+  }
+  footer img {
+    width: auto;
+  }
+  .caja8 {
+    padding-bottom: 60px;
+  }
+  .caja5 h2 {
+    text-align: center;
   }
 }

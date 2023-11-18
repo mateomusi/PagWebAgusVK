@@ -111,10 +111,13 @@ body {
   }
   .caja6 h2 {
     font-size: 2rem;
-    text-wrap: true;
-    transform: scale(1.3);
+    width: auto;
+    line-height: 35px;
   }
   main {
     padding-top: 150px;
+  }
+  body {
+    height: auto;
   }
 }
