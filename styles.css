@@ -52,7 +52,7 @@ header {
 .caja1 p {
   background-color: #d2d1d1;
   border-radius: 10px;
-  width: 1200px;
+  width: fit-content;
   font-family: "Poppins";
   font-size: 26px;
   font-weight: bold;
@@ -503,3 +503,54 @@ footer img {
 }
 
 /*--End Footer--*/
+
+@media screen and (max-width: 768px) {
+  .encabezado {
+    background-size: cover;
+  }
+  .caja4 {
+    flex-wrap: wrap;
+  }
+  .contenedor-botones {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .caja1 iframe {
+    width: 85%;
+    height: 90%;
+  }
+  .caja1 p {
+    width: 85%;
+    font-size: 16px;
+  }
+  .caja1 h2 {
+    width: auto;
+  }
+  .caja3 h2 {
+    width: auto;
+  }
+  .subcaja iframe {
+    width: 85%;
+    height: 65%;
+  }
+  .subcaja h2 {
+    width: auto;
+  }
+  .subcaja {
+    padding-bottom: 20%;
+  }
+  .separator .line {
+    width: 100px;
+  }
+  .caja8 h2 {
+    width: auto;
+  }
+  .caja-info-mateo p {
+    font-size: 11px;
+  }
+
+  .slideshow-container {
+    width: 85%;
+    height: fit-content;
+  }
+}

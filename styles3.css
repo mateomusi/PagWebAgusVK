@@ -134,13 +134,16 @@ h2 {
 }
 
 .subcaja3 {
-  max-width: 50%;
   margin: auto;
 }
 .subcaja3 h2 {
   text-align: center;
 }
-
+.subcaja3 h1 {
+  font-size: 60px;
+  width: auto;
+  text-align: center;
+}
 .caja4 h2 {
   text-align: center;
 }
@@ -381,4 +384,72 @@ footer img {
 
 .preg {
   cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .subcaja .precios p {
+    font-size: 9px;
+  }
+  .subcaja h2 {
+    font-size: 10px;
+  }
+  .subcaja {
+    height: auto;
+  }
+  .boton {
+    font-size: 8px;
+  }
+  .btn-info {
+    padding: 3px 5px;
+  }
+  .subcaja button {
+    margin-bottom: 10px;
+  }
+  .caja2 {
+    display: flex;
+    flex-direction: column;
+  }
+  .subcaja2 h2 {
+    width: fit-content;
+  }
+  .subcaja2 p {
+    width: 100%;
+  }
+  .caja2 {
+    padding-bottom: 20px;
+  }
+  .caja3 {
+    display: flex;
+    width: auto;
+    flex-direction: column;
+  }
+  .subcaja3 h2 {
+    width: auto;
+    font-size: 18px;
+  }
+  .subcaja3 h1 {
+    font-size: 26px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .subcaja3 {
+    width: 90%;
+  }
+  .subcaja3 button {
+    width: 100%;
+  }
+  .slider {
+    margin: 0;
+    padding: 10px 0;
+  }
+  .caja4 {
+    width: 95%;
+  }
+  .caja8 h2 {
+    width: auto;
+  }
+  .caja-info-mateo p {
+    font-size: 11px;
+  }
 }
